@@ -36,5 +36,5 @@ To exit press Ctrl+C
 
 ## Screenshot :
 
-![Screenshot of the Output](https://github.com/thisismohan/Django-Weather-App/tree/main/static/Screenshot.png?raw=true "Screenshot of Output")
+![Screenshot of the Output](https://github.com/thisismohan/Django-Weather-App/blob/main/static/Screenshot.png?raw=true "Screenshot of Output")
 
