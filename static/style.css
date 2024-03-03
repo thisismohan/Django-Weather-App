@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(Bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-align: center;
+}
+form{
+    margin-top: 15px;
+    display:grid;
+    grid-template-columns:72% 25%;
+    grid-gap:3%;
+}
+
+
+button{
+    padding: .5rem;
+    border-radius: 0.3em;
+    border: 2px solid #3498DB;
+    color: #3498DB;
+    background-color: transparent;
+    transition:.3s;
+}
+button:hover{
+    transform: translateY(-3px);
+    background-color: #3498DB;
+    color: white;
+}
+input, .btn ::placeholder{
+    background-color: transparent;
+    
+      /* color: var(--off-white);
+      border-bottom: 2px solid var(--transp-white-1);   */ 
+    padding: .5rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(133, 133, 133);
+}
+.container{
+    width: 50%;
+    background-color: rgba(248, 248, 248, 0.422);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.632);
+    color: rgb(5,41,51);
+}
+.weather{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:2rem;
+    background: rgba(255, 255, 255, 0.61);
+    padding: .3rem;
+    border-radius: 10px;
+    height: 220px;
+}
+.left{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+.city{
+    text-transform: uppercase;
+}
+.right{
+    line-height:2.5;
+    padding-bottom: .3rem;
+}
+.icon{
+
+    /* background:#d8c6c6; */
+      height:85px;
+      padding: .5rem;
+      border-radius:0 10px 0 0;
+      color:#04009A;
+      /* filter: drop-shadow(0 1.8em 3.7em var(--shadow)); */
+}
+.condition{
+    margin-top: 10px;
+    height:135px;
+        /* background:#292929 ; */
+    /* padding: .5rem; */
+    color:rgb(5,41,51);
+    text-align: center;
+    /* font-size: 20px; */
+}
+@media only screen and (max-width: 1000px) {
+    .container{
+     width:80%; 
+    } 
+}
